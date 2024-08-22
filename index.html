@@ -13,7 +13,7 @@
 <body>
     <nav id="aside-menu"></nav>
     <header>
-        <nav class="container-fluid">
+        <nav class="container-fluid main-nav">
             <div class="row">
                 <div class="col header-nav-box-1">
                     <div class="menu-burger">
@@ -21,6 +21,7 @@
                     </div>
                     <div class="search">
                         <input type="search" id="search" placeholder="Pesquisar">
+                        <img src="assets/icon/search.png" alt="" srcset="">
                     </div>
                     <div class="loginOrLogUp person-box">
                         <nav>
@@ -36,7 +37,7 @@
 
         <div class="banner-home">
             <div class="second-menu">
-                <nav class="container-xl">
+                <nav class="container-fluid">
                     <div class="horizon-menu-box">
                         <a href="">Sobre</a>
                         <a href="">Projetos ECO</a>
@@ -48,8 +49,140 @@
         </div>
     </header>
     <main>
-        <br><br><br><br><br><br><br><br>
+        <section class="carousel-banners container-sm p-4">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#projetoEco">
+                            <img src="assets/banners/banner1-carrossel.webp" class="d-block w-100"
+                                alt="Banner do Carrossel">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="assets/banners/banner2-carrossel.webp" class="d-block w-100"
+                                alt="Banner do Carrossel">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="assets/banners/banner3-carrossel.webp" class="d-block w-100"
+                                alt="Banner do Carrossel">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <section class="container-fluid p-4">
+            <div class="row">
+                <div class="col knowUs">
+                    <h1>A MELHOR ENERGIA PERTO DE VOCÊ</h1>
+                    <p>conheça onde estão localizadas</p>
+                </div>
+            </div>
+        </section>
+        <section class="container-xl pt-2">
+            <div class="row galery">
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image" style="background-image: url('assets/img/citys/rancharia.JPG');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Rancharia - SP</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image" style="background-image: url('assets/img/citys/treslagoas.jpg');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Três Lagoas - MG</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image"
+                            style="background-image: url('assets/img/citys/saltogrande.jpg');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Salto Grande - SP</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image" style="background-image: url('assets/img/citys/selviria.jpg');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Selvíria - MS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image"
+                            style="background-image: url('assets/img/citys/candidomota.jpg');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Candido Mota - SP</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-2 container-fluid">
+                    <div class="row">
+                        <div class="col-3 city-image"
+                            style="background-image: url('assets/img/citys/martinopolis.jpg');">
+                        </div>
+                        <div class="col city-name">
+                            <h3>Martinópolis - SP</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="banner-end container-fluid mt-5 mb-5">
+        </section>
+        <section class="projects">
+            <div class="card">
+                <img src="assets/banners/cartãofuncinamento.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Projetos ECO</h5>
+                    <p class="card-text">Conheça nossos programas de educação ambiental</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/banners/cartão-como funciona.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Como funciona?</h5>
+                    <p class="card-text">Você sabe como geramos energia através da água?</p>
+                </div>
+            </div>
+        </section>
+        <section class="contatos p-5">
+            <h2>TEM ALGUMA DÚVIDA?</h2>
+            <button>Contate-nos</button>
+        </section>
+
     </main>
+
+
+
+
+
+
+
     <footer>
         <div class="container">
             <div class="row">
@@ -71,15 +204,20 @@
                 </div>
                 <div class="col">
                     <div class="footer-menu-social">
-                        <a href="https://instagram.com/" target="_blank"><img width="40rem" src="assets/icon/instagram.png"></a>
-                        <a href="https://facebook.com/" target="_blank"><img width="40rem" src="assets/icon/facebook.png"></a>
-                        <a href="https://linkedin.com/" target="_blank"><img width="40rem" src="assets/icon/linkedin.png"></a>
-                        <a href="https://youtube.com/" target="_blank"><img width="40rem" src="assets/icon/youtube.png"></a>
+                        <a href="https://instagram.com/" target="_blank"><img width="40rem"
+                                src="assets/icon/instagram.png"></a>
+                        <a href="https://facebook.com/" target="_blank"><img width="40rem"
+                                src="assets/icon/facebook.png"></a>
+                        <a href="https://linkedin.com/" target="_blank"><img width="40rem"
+                                src="assets/icon/linkedin.png"></a>
+                        <a href="https://youtube.com/" target="_blank"><img width="40rem"
+                                src="assets/icon/youtube.png"></a>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <p class="pt-3" style="text-align: center; color: aliceblue; font-weight: 500;">TODOS OS DIREITOS RESERVADOS! &copy;EcoH2O</p>
+                <p class="pt-3" style="text-align: center; color: aliceblue; font-weight: 500;">TODOS OS DIREITOS
+                    RESERVADOS! &copy;EcoH2O</p>
             </div>
         </div>
     </footer>
