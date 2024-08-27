@@ -20,7 +20,6 @@ menuBurger.addEventListener('click', () => {
                             <a class="nav-link aside-a-style" href="#">Orçamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link aside-a-style" href="#">Serviços</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link aside-a-style" href="#">Contato</a>
