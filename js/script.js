@@ -14,15 +14,15 @@ menuBurger.addEventListener('click', () => {
                             <a class="nav-link aside-a-style" href="html/sobre.html">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link aside-a-style" href="#">Projetos ECO</a>
+                            <a class="nav-link aside-a-style" href="html/project.html">Projetos ECO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link aside-a-style" href="#">Orçamentos</a>
+                            <a class="nav-link aside-a-style" href="budgets.html">Orçamentos</a>
                         </li>
                         <li class="nav-item">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link aside-a-style" href="#">Contato</a>
+                            <a class="nav-link aside-a-style" href="html/contact.html">Contato</a>
                         </li>
                     </ul>
                 </div>      

@@ -1,0 +1,19 @@
+.project {
+    font-family: 'Qwitcher Grypen', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    margin: 0px 65px;
+    padding: 3px 60px 30px;
+}
+
+.eco {    
+    font-weight: 800;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.text-projeto {
+    margin: 0px 30px;
+    padding: 3px 65px;
+    font-size: 20px;
+    text-align: justify;
+}

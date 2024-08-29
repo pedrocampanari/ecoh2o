@@ -1,0 +1,17 @@
+.banner-contact {
+    height: auto;
+    background-image: url('../assets/img/contact/banner.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+label {
+    display: block;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+h1{
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 800;
+}
